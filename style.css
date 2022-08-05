@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+.heading {
+  color: crimson;
+  font-family: "Dancing Script", cursive;
+}
+.paragraph {
+  text-decoration: underline;
+  word-spacing: 2rem;
+  line-height: 30px;
+}
+
+#large-paragraph {
+  font-family: "Raleway", sans-serif;
+  text-transform: lowercase;
+}
+h2 {
+  font-family: "Indie Flower", cursive;
+  text-decoration: line-through;
+}
+
+h3 + p {
+  font-style: italic;
+  font-size: 22px;
+  text-align: center;
+}
+
+#first-paragraph {
+  font-weight: bold;
+}
+
+h1 {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+h3 {
+  letter-spacing: 10px;
+}
