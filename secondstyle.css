@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+#first-block {
+  background-color: lightblue;
+  background-image: url(images/image-1.jpg);
+  background-repeat: repeat-y;
+  background-position: center;
+}
+#second-block {
+  background-color: darksalmon;
+  background-image: url(images/image-2.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+#third-block {
+  background-color: darkseagreen;
+  background-image: url(images/image-3.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
